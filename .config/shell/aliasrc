@@ -1,0 +1,6 @@
+# ls aliases
+alias la="exa -laH --icons"
+alias ls="exa -lH --icons"
+
+# dofiles management
+alias dots="git --git-dir=$HOME/.dots.git/ --work-tree=$HOME"
